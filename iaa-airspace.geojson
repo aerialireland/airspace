@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "EI U2",
+        "name": "Currency Centre",
+        "type": "COMMON",
+        "restriction": "REQ_AUTHORISATION",
+        "reason": ["SENSITIVE"],
+        "otherReasonInfo": "Security",
+        "message": "Access may be requested through the zone authority for Open & Specific Category operations.",
+        "zoneAuthority": {
+          "name": "Department of Defence",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "purpose": "AUTHORIZATION"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.23177778, 53.27355556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "EI U3",
+        "name": "Royal Hospital Kilmainham",
+        "type": "COMMON",
+        "restriction": "REQ_AUTHORISATION",
+        "reason": ["AIR_TRAFFIC"],
+        "otherReasonInfo": "Security",
+        "message": "Access may be requested through the zone authority exclusively for Specific Category operations.",
+        "zoneAuthority": {
+          "name": "Irish Museum of Modern Art",
+          "email": ["david.duff@imma.ie", "seamus.magee@imma.ie"],
+          "purpose": "AUTHORIZATION"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.30216667, 53.343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "identifier": "EI U7",
+        "name": "Casement Aerodrome",
+        "type": "COMMON",
+        "restriction": "REQ_AUTHORISATION",
+        "reason": ["AIR_TRAFFIC"],
+        "otherReasonInfo": "Security",
+        "message": "Access may be requested through the zone authority exclusively for Specific Category operations.",
+        "zoneAuthority": {
+          "name": "Department of Defence",
+          "email": "airspaceandobstacles@defenceforces.ie",
+          "purpose": "AUTHORIZATION"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.45540614, 53.30299194]
+      }
+    }
+    // Add other features following this pattern
+  ]
+}
